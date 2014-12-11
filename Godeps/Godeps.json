@@ -1,0 +1,28 @@
+{
+	"ImportPath": "github.com/jbdalido/gtoi",
+	"GoVersion": "go1.3.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-42-gfbda1ce",
+			"Rev": "fbda1ce02d5dabcee952040e5f4025753b6c9ce0"
+		},
+		{
+			"ImportPath": "github.com/influxdb/influxdb/client",
+			"Comment": "v0.8.6-171-g1e8e1f2",
+			"Rev": "1e8e1f223c9ed5994f3f0ec28c3c9d862abcc44f"
+		},
+		{
+			"ImportPath": "github.com/jbdalido/logrus",
+			"Comment": "v0.5.1-38-gd925906",
+			"Rev": "d925906e5bf660b544bf94ffb19b1878ed2d76d8"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "d466437aa4adc35830964cffc5b5f262c63ddcb4"
+		}
+	]
+}

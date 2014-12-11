@@ -1,0 +1,8 @@
+patterns:
+  cassandra:
+    patterns: 
+        - "^car[^.]+.cassandra.[^.]+.[^.]+.read_latency.mean$"
+    columns:
+      ColumnFamily: 3
+      Keyspace: 4
+      Type: 5
